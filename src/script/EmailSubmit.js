@@ -18,7 +18,7 @@ inputKey.value = `7fc10402-ff26-4fa1-a1ab-74a9ed459220`;
 
 redirectTo.type = `hidden`;
 redirectTo.name = `redirectTo`;
-redirectTo.value = `./success.html`;
+redirectTo.value = `http://micaelly.shop/success.html`;
 
 inputName.type = `text`;
 inputName.name = `name`;
