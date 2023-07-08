@@ -1,0 +1,12 @@
+{
+  "name": "loja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "sass --watch src/Sass/style.scss:dist/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
