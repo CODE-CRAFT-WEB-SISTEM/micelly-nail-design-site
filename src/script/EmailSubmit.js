@@ -41,7 +41,7 @@ enviar.addEventListener("click", (ev) => {
   let error = document.createElement("span");
 
   if (inputName.value == "" || inputEmail.value == "" || textArea.value == "") {
-    //ev.preventDefault();
+    ev.preventDefault();
 
     error.textContent = `⚠️ Preencha todos os campos!`;
     error.classList.add("emptyForm");
