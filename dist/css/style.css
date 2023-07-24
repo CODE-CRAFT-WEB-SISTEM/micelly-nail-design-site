@@ -46,19 +46,20 @@ img[alt=logo] {
   width: 200px;
 }
 
-h1, p {
+h1,
+p {
   width: 100%;
   max-width: 360px;
 }
 
 .caroselAnimated {
   width: 320px;
-  height: 370px;
+  height: 390px;
   margin-top: 5rem;
 }
 
 img[alt=imageCarousel] {
-  height: 370px;
+  height: 390px;
   border-radius: 10px;
 }
 
@@ -81,7 +82,7 @@ img[alt=imageCarousel] {
 .open {
   width: 40%;
   border-radius: 8px;
-  background-color: orange;
+  background-color: rgba(0, 0, 0, 0.3);
   margin-top: 1rem;
   float: right;
 }
@@ -89,18 +90,17 @@ img[alt=imageCarousel] {
 .close {
   width: 40%;
   border-radius: 8px;
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.3);
   margin-top: 1rem;
   float: right;
 }
 
 #services {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 30px;
+  margin-top: 5rem;
 }
 
 .cardPrices {
@@ -119,7 +119,8 @@ img[alt=imageCarousel] {
   margin-bottom: 2rem;
   font-size: 22pt;
 }
-.cardPrices h2, .cardPrices h3 {
+.cardPrices h2,
+.cardPrices h3 {
   text-align: left;
   font-size: 16pt;
 }
@@ -195,7 +196,7 @@ section.my-profile p {
 }
 
 .emptyForm {
-  background-color: darkred;
+  background-color: hsl(0, 72.2%, 50.6%);
   color: white;
   position: absolute;
   top: 10px;
@@ -231,15 +232,17 @@ footer p {
 
 .miniTexto {
   width: 36%;
+  max-width: 130px;
   height: 30px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   text-align: center;
   padding: 3px 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 91%;
-  left: 70%;
+  left: 82%;
   transform: translate(-80%, -50%);
   z-index: 10001;
   position: fixed;
@@ -321,9 +324,7 @@ footer p {
   justify-content: center;
 }
 .styleAnuncio video {
-  width: 85%;
-  height: 100vh;
-  position: relative;
+  width: 230px;
 }
 
 .contactRedir {
@@ -341,6 +342,7 @@ footer p {
   transform: translate(-50%, -50%);
   position: fixed;
   transition: 0.8s;
+  display: none;
 }
 .contactRedir:hover {
   background-color: pink;
@@ -353,13 +355,27 @@ footer p {
   border-radius: 100%;
   z-index: 10100;
   position: absolute;
-  top: 6%;
+  top: 8%;
   right: 4%;
   background-color: red;
   color: #fff;
   font-size: 17pt;
 }
 
+@media (max-width: 720px) {
+  #services {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .miniTexto {
+    left: 70%;
+  }
+  .styleAnuncio video {
+    width: 330px;
+  }
+}
 @media (min-width: 351px) {
   .contactRedir {
     width: 150px;

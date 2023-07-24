@@ -9,12 +9,12 @@ logo.src = './src/images/logo.png';
 let horas = new Date().getHours();
 let diaSemana = new Date().getDay();
 
-if (diaSemana === 0 || horas < 8 || horas >= 18) {
+if (diaSemana === 0 || horas < 9 || horas >= 18) {
   BancoDeHoras.classList.add('close');
-  BancoDeHoras.textContent = `Fechado agora`;
+  BancoDeHoras.textContent = `🔴 Fechado`;
 } else {
   BancoDeHoras.classList.add('open');
-  BancoDeHoras.textContent = `Aberto agora`;
+  BancoDeHoras.textContent = `🟢 Aberto`;
 }
 
 disponible.appendChild(BancoDeHoras);

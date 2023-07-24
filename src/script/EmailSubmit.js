@@ -10,7 +10,7 @@ let enviar = document.createElement("input");
 
 title.textContent = `Entre em contato!`;
 form.method = `POST`;
-form.action = `https://api.staticforms.xyz/submit`;
+form.action = `https://micaelly.shop/success.html`;
 
 inputKey.type = `hidden`;
 inputKey.name = `accessKey`;
@@ -40,7 +40,7 @@ enviar.addEventListener("click", (ev) => {
   if (inputName.value == "" || inputEmail.value == "" || textArea.value == "") {
     ev.preventDefault();
 
-    error.textContent = `Preencha todos os campos`;
+    error.textContent = `⚠️ Preencha todos os campos!`;
     error.classList.add("emptyForm");
 
     setTimeout(() => {

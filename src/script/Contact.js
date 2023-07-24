@@ -13,7 +13,7 @@ setTimeout(() => {
   iconWhastapp.addEventListener("click", () => {
     window.location.href = "https://wa.me/+556196718239";
   });
-}, 1000 * 5);
+}, 1000 * 2);
 
 //Cartão de msg
 miniTexto.textContent = `Chama no Zap!`;
@@ -21,8 +21,8 @@ miniTexto.classList.add("miniTexto");
 
 setTimeout(() => {
   whatsappFloat.appendChild(miniTexto);
-}, 1000 * 14);
+}, 1000 * 6);
 
 setTimeout(() => {
   whatsappFloat.removeChild(miniTexto);
-}, 1000 * 28);
+}, 1000 * 38);
