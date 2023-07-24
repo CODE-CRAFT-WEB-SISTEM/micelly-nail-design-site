@@ -23,12 +23,15 @@ redirectTo.value = `https://micaelly.shop/success.html`;
 inputName.type = `text`;
 inputName.name = `name`;
 inputName.placeholder = `Nome`;
+inputName.require = true
 
 inputEmail.type = `text`;
 inputEmail.name = `email`;
+inputEmail.require = true
 inputEmail.placeholder = `Seu melhor e-mail`;
 
 textArea.name = `message`;
+textArea.require = true
 textArea.placeholder = `Digite aqui sua mensagem...`;
 
 enviar.value = `Enviar`;
