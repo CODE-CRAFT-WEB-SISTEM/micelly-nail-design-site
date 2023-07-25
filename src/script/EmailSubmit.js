@@ -18,20 +18,16 @@ inputKey.value = `7fc10402-ff26-4fa1-a1ab-74a9ed459220`;
 
 redirectTo.type = `hidden`;
 redirectTo.name = `redirectTo`;
-redirectTo.value = `https://micaelly.shop/success.html`;
 
 inputName.type = `text`;
 inputName.name = `name`;
 inputName.placeholder = `Nome`;
-inputName.require = true
 
 inputEmail.type = `text`;
 inputEmail.name = `email`;
-inputEmail.require = true
 inputEmail.placeholder = `Seu melhor e-mail`;
 
 textArea.name = `message`;
-textArea.require = true
 textArea.placeholder = `Digite aqui sua mensagem...`;
 
 enviar.value = `Enviar`;
@@ -40,7 +36,7 @@ enviar.type = `submit`;
 enviar.addEventListener("click", (ev) => {
   let error = document.createElement("span");
 
-  if (inputName.value == "" || inputEmail.value == "" || textArea.value == "") {
+  if (inputName.value === "" || inputEmail.value === "" || textArea.value === "") {
     ev.preventDefault();
 
     error.textContent = `⚠️ Preencha todos os campos!`;
@@ -49,6 +45,8 @@ enviar.addEventListener("click", (ev) => {
     setTimeout(() => {
       form.removeChild(error);
     }, 3000);
+  }else{
+    redirectTo.value = `https://micaelly.shop/success.html`;
   }
 
   form.appendChild(error);
