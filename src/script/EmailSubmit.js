@@ -10,7 +10,7 @@ let enviar = document.createElement("input");
 
 title.textContent = `Entre em contato!`;
 form.method = `POST`;
-form.action = `https://micaelly.shop/success.html`;
+form.action = `https://api.staticforms.xyz/submit`;
 
 inputKey.type = `hidden`;
 inputKey.name = `accessKey`;
