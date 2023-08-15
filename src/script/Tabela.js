@@ -50,7 +50,7 @@ const manicure = [
 
 const cabelo = [
   { nome: "Botox Capilar", preco: "R$ 75,00" },
-  { nome: "Escova e Hidratação", preco: "R$ 20,00" },
+  { nome: "Escova e Hidratação", preco: "R$ 50,00" },
 ];
 
 function elementos(arr) {
