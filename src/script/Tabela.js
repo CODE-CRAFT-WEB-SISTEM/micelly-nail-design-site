@@ -4,22 +4,26 @@ const Aplicacao = document.createElement("div");
 const Manutencao = document.createElement("div");
 const Decoracao = document.createElement("div");
 const Manicure = document.createElement("div");
+const Cabelo = document.createElement("div");
+
 Aplicacao.className = "cardPrices";
 Manutencao.className = "cardPrices";
 Decoracao.className = "cardPrices";
 Manicure.className = "cardPrices";
+Cabelo.className = "cardPrices";
 
 Aplicacao.innerHTML = "<h1>Aplicação</h1>";
 Manutencao.innerHTML = "<h1>Manutenção</h1>";
 Decoracao.innerHTML = "<h1>Decoração</h1>";
 Manicure.innerHTML = "<h1>Manicure</h1>";
+Cabelo.innerHTML = "<h1>Cuidados com Cabelo</h1>";
 
 //PRECOS DOS CARDS
 const aplicacao = [
-  { nome: "Unhas de Fibra", preco: "R$ 100,00" },
+  { nome: "Unhas de Fibra", preco: "R$ 95,00" },
   { nome: "Baby Boomer", preco: "R$ 115,00" },
   { nome: "Baby Color", preco: "R$ 110,00" },
-  { nome: "Unhas de Gel", preco: "R$ 85,00" },
+  { nome: "Unhas de Gel", preco: "R$ 75,00" },
   { nome: "Banho de Gel", preco: "R$ 50,00" },
 ];
 
@@ -44,6 +48,11 @@ const manicure = [
   { nome: "Cuticulas, Alongamento", preco: "R$ 5,00" },
 ];
 
+const cabelo = [
+  { nome: "Botox Capilar", preco: "R$ 75,00" },
+  { nome: "Escova e Hidratação", preco: "R$ 20,00" },
+];
+
 function elementos(arr) {
   let div = document.createElement("div");
 
@@ -63,5 +72,6 @@ Aplicacao.appendChild(elementos(aplicacao));
 Manutencao.appendChild(elementos(manutencao));
 Decoracao.appendChild(elementos(decoracao));
 Manicure.appendChild(elementos(manicure));
+Cabelo.appendChild(elementos(cabelo));
 
-services.append(Aplicacao, Manutencao, Decoracao, Manicure);
+services.append(Aplicacao, Manutencao, Decoracao, Manicure, Cabelo);
