@@ -1,12 +1,12 @@
 let anuncio = document.getElementById("anuncio");
-let video = document.createElement("video");
+let video = document.createElement("img");
 let closeVideo = document.createElement("button");
 let contactRedirect = document.createElement("button");
 
 video.src = `./src/images/anuncios/promocao03.jpg`;
-video.autoplay = true;
-video.muted = true;
-video.loop = true;
+//video.autoplay = true;
+//video.muted = true;
+//video.loop = true;
 
 closeVideo.textContent = `X`;
 contactRedirect.textContent = `Agende um horário`;
