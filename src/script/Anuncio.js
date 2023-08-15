@@ -1,9 +1,11 @@
 let anuncio = document.getElementById("anuncio");
-let video = document.createElement("img");
+//let video = document.createElement("video");
+let imagem = document.createElement("img");
 let closeVideo = document.createElement("button");
 let contactRedirect = document.createElement("button");
 
-video.src = `./src/images/anuncios/promocao03.jpg`;
+//video.src = `./src/images/anuncios/promocao03.jpg`;
+imagem.src = `./src/images/anuncios/promocao03.jpg`;
 //video.autoplay = true;
 //video.muted = true;
 //video.loop = true;
@@ -15,7 +17,7 @@ setTimeout(() => {
   closeVideo.classList.add("closeVideoBtn");
   anuncio.classList.add("styleAnuncio");
   contactRedirect.classList.add("contactRedir");
-  anuncio.append(contactRedirect, closeVideo, video);
+  anuncio.append(contactRedirect, closeVideo, imagem);
 }, 1000 * 6);
 
 closeVideo.addEventListener("click", () => {
