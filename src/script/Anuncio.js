@@ -5,7 +5,7 @@ let closeVideo = document.createElement("button");
 let contactRedirect = document.createElement("button");
 
 //video.src = `./src/images/anuncios/promocao03.jpg`;
-imagem.src = `/src/images/anuncios/promocao03.jpg`;
+imagem.src = `src/images/anuncios/promocao03.jpeg`;
 //video.autoplay = true;
 //video.muted = true;
 //video.loop = true;
