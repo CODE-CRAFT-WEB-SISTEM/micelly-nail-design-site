@@ -2,7 +2,8 @@ let anuncio = document.getElementById("anuncio");
 let video = document.createElement("video");
 let closeVideo = document.createElement("button");
 let contactRedirect = document.createElement("button");
-video.src = `./src/images/anuncios/pub02.mp4`;
+
+video.src = `./src/images/anuncios/promocao03.jpg`;
 video.autoplay = true;
 video.muted = true;
 video.loop = true;
