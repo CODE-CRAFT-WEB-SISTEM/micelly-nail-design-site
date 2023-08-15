@@ -326,6 +326,9 @@ footer p {
 .styleAnuncio video {
   width: 230px;
 }
+.styleAnuncio video img {
+  width: 200px;
+}
 
 .contactRedir {
   width: 200px;
