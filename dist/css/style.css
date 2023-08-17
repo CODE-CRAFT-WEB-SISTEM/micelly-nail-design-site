@@ -428,10 +428,17 @@ footer p {
 }
 .animate {
   opacity: 0;
-  transition: 1s;
+  transition: 1.7s;
+  filter: blur(5px);
+}
+
+.from-bottom {
+  transform: translatey(-100%);
 }
 
 .animate.show {
+  transform: translate(0);
+  filter: blur(0);
   opacity: 1;
 }
 
