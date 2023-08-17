@@ -426,5 +426,13 @@ footer p {
     top: 90%;
   }
 }
+.animate {
+  opacity: 0;
+  transition: 1s;
+}
+
+.animate.show {
+  opacity: 1;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -431,3 +431,13 @@ footer {
     top: 90%;
   }
 }
+
+//ANIMAÇAO DE EFEITO SCROLL
+
+.animate{
+  opacity: 0;
+  transition: 1s;
+}
+.animate.show {
+  opacity: 1;
+}

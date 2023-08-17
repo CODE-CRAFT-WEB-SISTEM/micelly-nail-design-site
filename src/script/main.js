@@ -18,3 +18,4 @@ if (diaSemana === 0 || horas < 9 || horas >= 18) {
 }
 
 disponible.appendChild(BancoDeHoras);
+
