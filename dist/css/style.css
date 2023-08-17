@@ -433,7 +433,7 @@ footer p {
 }
 
 .from-top {
-  transform: translatex(-100%);
+  transform: translatex(100%);
 }
 
 .from-bottom {
