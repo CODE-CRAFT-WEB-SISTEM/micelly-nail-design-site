@@ -437,7 +437,7 @@ footer p {
 }
 
 .from-bottom {
-  transform: translatey(-100%);
+  transform: translatex(-100%);
 }
 
 .animate.show {
