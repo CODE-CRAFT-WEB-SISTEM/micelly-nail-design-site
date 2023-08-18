@@ -82,15 +82,6 @@
       <p>Alguns direitos reservados.</p>
     </footer>
   </header>
-  <script defer>
-    let elementos = document.querySelectorAll('.animate');
-
-    let observAll = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        entry.target.classList.toggle('show', entry.isIntersecting)});
-    });
-    elementos.forEach(ev => observAll.observe(ev));
-  </script>
 </body>
 
 </html>

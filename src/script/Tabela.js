@@ -20,7 +20,7 @@ Cabelo.innerHTML = "<h1>Cuidados com Cabelo</h1>";
 
 //PRECOS DOS CARDS
 const aplicacao = [
-  { nome: "Unhas de Fibra", preco: "R$ 95,00" },
+  { nome: "Unhas de Fibra", preco: "R$ 100,00" },
   { nome: "Baby Boomer", preco: "R$ 115,00" },
   { nome: "Baby Color", preco: "R$ 110,00" },
   { nome: "Unhas de Gel", preco: "R$ 75,00" },
