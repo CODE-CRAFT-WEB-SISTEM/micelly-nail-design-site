@@ -428,7 +428,7 @@ footer p {
 }
 .animate {
   opacity: 0;
-  transition: 1.5s;
+  transition: 1.2s;
   filter: blur(5px);
 }
 
