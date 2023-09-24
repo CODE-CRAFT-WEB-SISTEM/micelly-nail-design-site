@@ -35,7 +35,7 @@ const manutencao = [
   { nome: "Unhas de fibra", preco: "R$ 65,00" },
   { nome: "Unhas de Gel", preco: "R$ 60,00" },
   { nome: "Banho de Gel", preco: "R$ 40,00" },
-  { nome: "Reposição de Unha", preco: "R$ 05,00" },
+  { nome: "Reposição de Unha", preco: "R$ 5,00" },
 ];
 
 const decoracao = [
