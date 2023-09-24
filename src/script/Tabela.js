@@ -19,19 +19,23 @@ Manicure.innerHTML = "<h1>Manicure</h1>";
 Cabelo.innerHTML = "<h1>Cuidados com Cabelo</h1>";
 
 //PRECOS DOS CARDS
+
 const aplicacao = [
+
   { nome: "Unhas de Fibra", preco: "R$ 100,00" },
-  { nome: "Baby Boomer", preco: "R$ 115,00" },
+  { nome: "Baby Boomer", preco: "R$ 110,00" },
   { nome: "Baby Color", preco: "R$ 110,00" },
-  { nome: "Unhas de Gel", preco: "R$ 75,00" },
-  { nome: "Banho de Gel", preco: "R$ 50,00" },
+  { nome: "Unhas de Gel", preco: "R$ 90,00" },
+  { nome: "Banho de Gel", preco: "R$ 60,00" },
+  { nome: "Reversa", preco: "120"},
 ];
 
 const manutencao = [
-  { nome: "Unhas de fibra", preco: "R$ 70,00" },
+
+  { nome: "Unhas de fibra", preco: "R$ 65,00" },
   { nome: "Unhas de Gel", preco: "R$ 60,00" },
   { nome: "Banho de Gel", preco: "R$ 40,00" },
-  { nome: "Reposição de Unha", preco: "R$ 10,00" },
+  { nome: "Reposição de Unha", preco: "R$ 05,00" },
 ];
 
 const decoracao = [
