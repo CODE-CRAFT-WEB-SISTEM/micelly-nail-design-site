@@ -27,7 +27,7 @@ const aplicacao = [
   { nome: "Baby Color", preco: "R$ 110,00" },
   { nome: "Unhas de Gel", preco: "R$ 90,00" },
   { nome: "Banho de Gel", preco: "R$ 60,00" },
-  { nome: "Reversa", preco: "120"},
+  { nome: "Reversa", preco: "R$ 120"},
 ];
 
 const manutencao = [
